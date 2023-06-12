@@ -1,0 +1,37 @@
+* {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  border: 1px solid white;
+  /* display: inline-block; */
+  height: 200px;
+  width: 250px;
+  text-align: center;
+  background-color: #619b8a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#minus {
+  float: left;
+  color: black;
+  font-weight: 900;
+  border-radius: 25%;
+  height: 50px;
+  width: 80px;
+}
+#plus {
+  font-weight: 900;
+  height: 50px;
+  width: 80px;
+  float: right;
+  color: black;
+  border-radius: 25%;
+}
+#reset {
+  color: black;
+}
